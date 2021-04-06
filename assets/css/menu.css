@@ -1,0 +1,70 @@
+#sidebar-container{
+    min-height: 100vh;
+    background-color: rgba(39, 55, 70, .9);
+    z-index: 1031;
+    transition: margin .25s ease-in-out;
+    margin-left: -18rem;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+    box-shadow: 0 0 4px rgba(39, 55, 70, .9) !important;
+    /*top: 50px !important;*/
+}
+
+
+#sidebar-container .menu{
+    width: 18rem;
+    padding: 0px 20px 0px 20px;
+}
+
+#content-wrapper.toggle #sidebar-container{
+    margin-left: 0;
+}
+
+@media (min-widht:768px){
+    #content-wrapper.toggle #sidebar-container{
+        margin-left: -18rem;
+    }
+}
+
+.logo h4{
+    font-size: 14px;
+    text-align: center;
+}
+
+#sidebar-container button{
+    text-align: center;
+    margin-left: 8rem;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 48%;
+    border-color: #566573;
+    color: #fff;
+}
+
+.menu a{
+    color: #17a2b8 !important;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.menu a:hover{
+    color: #fff !important;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.menu a i{
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.btn-outline-primary-app{
+    border-color:transparent;
+    color: #273746;
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+hr{
+    border:1px solid #566573;
+}

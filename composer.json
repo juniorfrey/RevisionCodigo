@@ -1,0 +1,14 @@
+{
+    "name": "fredy/cliente-nuvola",
+    "type": "project",
+    "require": {
+        "composer/composer": "^1.10",
+        "mpdf/mpdf": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Fredys Fernandez",
+            "email": "juniorfrey2990@gmail.com"
+        }
+    ]
+}
